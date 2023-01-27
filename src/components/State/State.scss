@@ -1,0 +1,46 @@
+@import "../../index.scss";
+
+
+.state{
+    background: #ececec;
+    border-radius: 0.8rem;
+    margin: 1rem 0;
+    img{
+        width: 100%;
+        border-top-left-radius: 0.8rem;
+        border-top-right-radius: 0.8rem;
+        display: block;
+    }
+}
+
+.img-container{
+    position: relative;
+}
+
+.state-info{
+    padding: 1rem 0.5rem;
+    h3{
+        text-transform: uppercase;
+        color: #1976d2;
+    }
+    h4{
+        text-transform: capitalize;
+        color: black;
+        margin: 0.2rem 0 0.6rem 0;
+    }
+    h5{
+        text-transform: capitalize;
+        span{
+            color: #1976d2;
+            margin: 1rem 0.5rem;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+        span svg{
+            margin-bottom: -5px;
+        }
+    }
+    
+}
+
+
